@@ -12,6 +12,7 @@
 		A41405D5227EAC6100BE2088 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41405D3227EAC6100BE2088 /* Main.storyboard */; };
 		A41405D7227EAC6200BE2088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A41405D6227EAC6200BE2088 /* Assets.xcassets */; };
 		A41405DA227EAC6200BE2088 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41405D8227EAC6200BE2088 /* LaunchScreen.storyboard */; };
+		A41405E2227EAFDB00BE2088 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A41405E1227EAFDB00BE2088 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A41405D6227EAC6200BE2088 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A41405D9227EAC6200BE2088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A41405DB227EAC6200BE2088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A41405E1227EAFDB00BE2088 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				A41405CF227EAC6100BE2088 /* AppDelegate.swift */,
+				A41405E1227EAFDB00BE2088 /* Resnet50.mlmodel */,
 				A41405D1227EAC6100BE2088 /* ViewController.swift */,
 				A41405D3227EAC6100BE2088 /* Main.storyboard */,
 				A41405D6227EAC6200BE2088 /* Assets.xcassets */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A41405D2227EAC6100BE2088 /* ViewController.swift in Sources */,
+				A41405E2227EAFDB00BE2088 /* Resnet50.mlmodel in Sources */,
 				A41405D0227EAC6100BE2088 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +285,7 @@
 		A41405DF227EAC6200BE2088 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconCoreMl;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X3N5XPMN8M;
 				INFOPLIST_FILE = CoreMLResent50/Info.plist;
@@ -299,7 +303,7 @@
 		A41405E0227EAC6200BE2088 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconCoreMl;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X3N5XPMN8M;
 				INFOPLIST_FILE = CoreMLResent50/Info.plist;
